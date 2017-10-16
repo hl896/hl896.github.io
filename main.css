@@ -1,0 +1,189 @@
+.my-photo{
+    width: 200px;
+    
+    
+}
+@media screen and (max-width:767px){
+
+    #mytitle {
+        color: #ffffff;
+        
+        
+    }
+    #myNavbar{
+        height: 100%;
+        max-width: 300px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 66px;
+        right:0;
+        background-color: rgba(46, 202, 127, 0.85);
+        overflow-x:hidden;
+        
+        padding-top: 60px;
+        
+
+    }
+    .my_default{
+        background-color: #2eca7f;
+    }
+    
+    .navbar-brand:hover{
+        color: white;
+    }
+
+    #myNavbar a{
+        position: relative;
+        padding:10px 8px 50px 30px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: .3s;
+        background-color: #2eca7f;
+        text-align: center;
+
+    }
+    #myNavbar a:hover{
+        color: #ffffff;
+    }
+
+    #myNavbar:checked ~ .mymenu{
+        width: 300px;
+        
+        
+    }
+
+   
+}
+
+@media screen and (min-width: 768px){
+    .my-photo{
+        
+        margin-bottom: -50px;
+    }
+    .card-body-detail{
+        padding-top: 50px;
+    }
+    
+    .container-fluid{
+        max-width: 1000px;
+    }
+    .mymenu{
+        position: relative;
+        background-color: #ffffff;
+        left: 0;
+        
+        min-width: 300px;
+        max-height:66px;
+        
+        
+    }
+    .my_default{
+        background-color: #ffffff;
+    }
+
+    #myNavbar a:hover{
+        color: #2eca7f;
+    }
+/*
+
+    .nav-link{
+        display: block;
+        padding: .5rem 1rem;
+    }
+
+    .collapse.navbar-collapse {
+        position: relative;
+        background-color:white;
+        float: right;
+        border:1px solid white;
+        padding: auto;
+        margin: auto;
+        
+    
+    }
+
+
+
+    li{
+        
+        background-color: white;
+    }
+    .navbar-default{
+        background-color: white;
+    }
+    #Image_card{
+        position: relative;
+        margin: 10px 10px;
+        padding: 10px 10px;
+    }
+    .text-center{
+        position: relative;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: green;
+    }
+*/
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto ;
+}
+
+.my-links{
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    color: gray;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.mycard{
+    
+    background-color:#2eca7f;
+   
+}
+
+.my-photo{
+    
+    clear: both;
+    display: block;
+    margin: auto;
+    
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    height: -50px;
+    color:#000000;
+}
+/*
+#collapse-open >li> a:hover{
+    color: hsl(64, 82%, 67%);
+}*/
+
+.my_default{
+    
+    height: 67px;
+}
+.myheader{
+    width: 50%;
+    max-width: 300px;
+    
+}
+
+#mytitle{
+    color: #000000;
+}
