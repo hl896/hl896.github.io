@@ -32,10 +32,13 @@
         background-color: #2eca7f;
 
     }
-    .my_default{
-        
+    #mybtn:hover,#mybtn:focus{
+        background-color: rgb(105, 240, 245);
     }
     
+    #mybtn .icon-bar:visited{
+        background-color: rgb(134, 247, 247);
+    }
     .navbar-brand:hover{
         color: white;
     }
@@ -164,11 +167,56 @@ body{
 
 
 .myrow_header{
+    background-color: #2eca7f;
     
-    background-color:#2eca7f;
-   
 }
 
+#btn_1{
+    -webkit-animation: animate_bg 15s;
+    animation: animate_bg 15s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    transition-duration: 15s;
+}
+
+#btn_2{
+    -webkit-animation: animate_bg 10s;
+    animation: animate_bg 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    transition-duration: 10s;
+}
+#btn_3{
+    -webkit-animation: animate_bg 5s;
+    animation: animate_bg 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    transition-duration: 5s;
+}
+
+#btn_4{
+    -webkit-animation: animate_bg 1s;
+    animation: animate_bg 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    transition-duration: 1s;
+}
+
+/*
+
+
+*/
+@keyframes animate_bg {
+    0%   {background:linear-gradient(to top,#B7F8DB, #50A7C2);}
+    50%  {background:linear-gradient(to top, #13547a ,#80d0c7);}
+    100% {background:linear-gradient(to top,#74b5eb,#8ef5f0);}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:linear-gradient(to top,#B7F8DB, #50A7C2);}
+    50%  {background:linear-gradient(to top,#13547a ,#80d0c7);}
+    100% {background:linear-gradient(to top,#08b7f7,#b0dcec);}
+}
 .my-photo{
     
     clear: both;
