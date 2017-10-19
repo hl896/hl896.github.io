@@ -4,6 +4,11 @@
     
 }
 @media screen and (max-width:767px){
+    .mycard{
+        border: 1px solid #2eca7f;
+        border-radius: 10px;
+        margin: 15px 15px;
+    }
     .my_container{
         position: fixed;
         top:0%;
@@ -163,10 +168,13 @@ body{
    
     
     border: 1px solid #2eca7f;
+    border-radius: 10px;
 }
 
 
 .myrow_header{
+    border: 1px solid #2eca7f;
+    border-radius: 10px;
     background-color: #2eca7f;
     
 }
